@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(pexels-prakash-aryal-38326.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: 80px;
+}
+
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
